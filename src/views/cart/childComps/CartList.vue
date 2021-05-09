@@ -27,7 +27,7 @@ export default {
     components: {
         CartListItem
     },
-    methods: {
+  methods: {
         goHome(){
             this.$router.replace('/home');
         }

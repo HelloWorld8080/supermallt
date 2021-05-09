@@ -39,7 +39,7 @@ export default {
         handleSelectAllGoods(){
             this.isSelectAllGoods = !this.isSelectAllGoods;
             console.log(this.isSelectAllGoods)
-            this.cartList.map(item=>{
+            this.cartList.map(item => {
                 item.isSelected = this.isSelectAllGoods;
             })
         }
